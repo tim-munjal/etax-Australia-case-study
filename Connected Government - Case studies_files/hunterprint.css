@@ -1,0 +1,36 @@
+#container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#main {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 160mm; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 160mm; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#side {
+	DISPLAY: none
+}
+.hide {
+	DISPLAY: none
+}
+.path {
+	DISPLAY: none
+}
+#nav {
+	DISPLAY: none
+}
+#pl {
+	DISPLAY: none
+}
+#MenuBar1 {
+	DISPLAY: none
+}
+#header {
+	WIDTH: 160mm; HEIGHT: 80px
+}
+.hideprint {
+	WIDTH: 160mm; HEIGHT: 80px
+}
+.apsc {
+	PADDING-LEFT: 0px
+}

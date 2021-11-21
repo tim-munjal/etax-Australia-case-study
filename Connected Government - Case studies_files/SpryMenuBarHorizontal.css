@@ -1,0 +1,68 @@
+UL.MenuBarHorizontal {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 90%; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: auto; CURSOR: default; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.MenuBarActive {
+	Z-INDEX: 1000
+}
+UL.MenuBarHorizontal LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: auto; CURSOR: pointer; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: relative; TEXT-ALIGN: left
+}
+UL.MenuBarHorizontal UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; Z-INDEX: 1020; LEFT: -1000em; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 8.2em; CURSOR: default; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute
+}
+UL.MenuBarHorizontal UL.MenuBarSubmenuVisible {
+	LEFT: auto
+}
+UL.MenuBarHorizontal UL LI {
+	WIDTH: 8.2em
+}
+UL.MenuBarHorizontal UL UL {
+	MARGIN: -5% 0px 0px 95%; POSITION: absolute
+}
+UL.MenuBarHorizontal UL.MenuBarSubmenuVisible UL.MenuBarSubmenuVisible {
+	LEFT: auto; TOP: 0px
+}
+UL.MenuBarHorizontal UL {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+UL.MenuBarHorizontal A {
+	PADDING-RIGHT: 0.75em; DISPLAY: block; PADDING-LEFT: 0.75em; PADDING-BOTTOM: 0.4em; CURSOR: pointer; COLOR: #333; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #fff; TEXT-DECORATION: none
+}
+UL.MenuBarHorizontal A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #000
+}
+UL.MenuBarHorizontal A:unknown {
+	COLOR: #fff; BACKGROUND-COLOR: #000
+}
+UL.MenuBarHorizontal A.MenuBarItemHover {
+	COLOR: #fff; BACKGROUND-COLOR: #333
+}
+UL.MenuBarHorizontal A.MenuBarItemSubmenuHover {
+	COLOR: #fff; BACKGROUND-COLOR: #333
+}
+UL.MenuBarHorizontal A.MenuBarSubmenuVisible {
+	COLOR: #fff; BACKGROUND-COLOR: #333
+}
+UL.MenuBarHorizontal A.MenuBarItemSubmenu {
+	BACKGROUND-POSITION: 95% 50%
+}
+UL.MenuBarHorizontal UL A.MenuBarItemSubmenu {
+	BACKGROUND-POSITION: 95% 50%; BACKGROUND-IMAGE: url(SpryMenuBarRight.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL.MenuBarHorizontal A.MenuBarItemSubmenuHover {
+	BACKGROUND-POSITION: 95% 50%
+}
+UL.MenuBarHorizontal UL A.MenuBarItemSubmenuHover {
+	BACKGROUND-POSITION: 95% 50%; BACKGROUND-IMAGE: url(SpryMenuBarRightHover.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL.MenuBarHorizontal IFRAME {
+	Z-INDEX: 1010; POSITION: absolute
+}
+
+@media Screen, Projection    
+{
+UL.MenuBarHorizontal LI.MenuBarItemIE {
+	DISPLAY: inline; BACKGROUND: #fff; FLOAT: left
+}
+
+}
